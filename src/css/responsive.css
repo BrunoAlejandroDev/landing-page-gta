@@ -1,0 +1,72 @@
+@media screen and (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 15px;
+    }
+
+    .home .informacoes {
+        padding: 30px;
+    }
+
+    .home .informacoes img {
+        max-width: 100px;
+    }
+    
+    .home .informacoes .info__titulo {
+        font-size: 2.5rem;
+    }
+
+    .compre-ja .compre-ja__cartao {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .compre-ja {
+        padding: 30px;
+    }
+
+    .compre-ja .compre-ja__cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .cartao__informacoes h3 {
+        font-size: 2.1875rem;
+    }
+
+    .compre-ja__cartao .cartao__btn-plataforma {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .info__btn-comprar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+
+    .compre-ja .compre-ja__cartao .cartao-capa-jogo {
+        max-width: 80%;
+    }
+
+    .compre-ja__cartao .cartao__informacoes .cartao__informacoes__plataformas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cabecalho .menu li a {
+        padding: 10px;
+    }
+}
